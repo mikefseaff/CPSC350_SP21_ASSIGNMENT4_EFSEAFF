@@ -1,16 +1,29 @@
 Michael Efseaff
-2343166
-Assignment 4
-CPSC-350-01
-German
 
 Resources:
 
-cplusplus.com
-stackoverflow.com
-geeksforgeeks.org
+cplusplus.com stackoverflow.com geeksforgeeks.org zybooks.com
+
+purpose:
+
+Compute the complement and reverse complement for a DNA sequence 
+
+There is also a mode for a simple RPN calculator 
+
+Compile:
+
+make all
+
+run:
+
+./main.out programMode
+
+program mode can either be "RPN" or "DNA" if dna also provide a file to a list of DNA sequences 
+
+i.e ./main.out DNA filename
 
 
-deviations:
+output:
 
-since we could do the classes how we liked, I found it easier to do the file writing and processing in the DNA class so the fileProcessor class just calls that method from DNAComplement
+depending on the user mode the program will compute the RPN calculations to the console or write the translated DNA to an output file
+
